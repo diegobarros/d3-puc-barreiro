@@ -5,9 +5,45 @@
         <title></title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
 
     </head>
     <body>
+
+      <div id="bar-chart" class="chart">
+
+
+      </div>
+
+      <div id="bubble-chart" class="chart">
+
+
+      </div>
+
+      <div id="margin-example" class="chart">
+
+
+      </div>
+
+      <div id="svg-example" class="chart">
+
+
+      </div>
+
+      <select id="sort-menu" onchange="sort()">
+        <option value="ASC">Crescente</option>
+        <option value="DSC">Decrescente</option>
+      </select>
+
+      <script src="js/vendor/d3.min.js"></script>
+
+      <script src="js/exemplo_svg.js"></script>
+      <script src="js/exemplo_margin.js"></script>
+
+      <script src="js/bar_chart.js"></script>
+      <script src="js/bubble_chart.js"></script>
+
+      <script src="js/main.js"></script>
 
     </body>
 </html>

@@ -1,0 +1,14 @@
+body {
+  background-color: #FFF;
+}
+
+svg {
+  background-color: #FCFCFC;
+}
+
+.chart {
+  width: 640px;
+  height: auto;
+  margin: 32px auto;
+  float: left;
+}
